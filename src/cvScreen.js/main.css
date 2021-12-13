@@ -1,0 +1,181 @@
+body{
+    background: rgb(247, 241, 241);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    
+}
+
+@font-face {
+    font-family: exclusive;
+    src: url('../font/HEADWAY.woff');
+    font-family: singo;
+    src: url('../font/Singo\ Regular.woff');
+}
+
+.container{
+    display: flex;
+    background: #171717;
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+   
+ 
+}
+.marco{
+    width: 850px;
+    height: 850px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.logo {
+    color: #EEEEEE;
+    position: absolute;
+    font-size: 30px;
+    transform: translate(0,-25px);
+}
+.logo2{
+    position: absolute;
+    color: #EEEEEE;
+    transform: translate(232px,-14px);
+    border-top: 2px solid #fd7014;
+}
+
+.cuadro1 {
+    display: flex;
+    width: 520px;
+    height: 220px;
+}
+.cuadro2 {
+    width: 320px;
+    height: 220px;
+   
+    transform: translate(30px);
+    color: #EEEEEE;
+}
+
+.cajaMail {
+width: 320px;
+height: 132px;
+}
+
+.cajaSocial {
+    width: 320px;
+    height: 94px;
+}
+
+
+.cuadro3 {
+    display: flex;
+    width: 850px;
+    height: 650px;
+   flex-wrap: wrap;
+}
+
+/* stilo divcontenedor 3 -/////////////////// */
+
+.contenedor3-interno{
+    width: 400px;
+    height: 287px;
+    border: 2px solid #EEEEEE;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:  15px;
+    border-top-right-radius: 15px;
+    transform: translateY(50px);
+    display: flex;
+    align-items: center;
+}
+.div-contenedor3-pega{
+    position:absolute;
+    border: 2px solid #EEEEEE;
+    border-bottom: none;
+    width: 170px;
+    height: 30px;
+    transform: translate(0,18px);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: #393e46;
+    display: flex;
+    align-items: center;
+}
+.div-contenedor3-pega i{
+    color: #fd7014;
+    font-size: 30px;
+    transform: translate(2px, -6px);
+}
+.div-contenedor3-pega span{
+    color: #EEEEEE;
+    font-size: 20px;
+    font-weight: 700;
+    transform: translate(10px);
+}
+
+
+/* stylo divcontenedor 3 ///////////////////////////// */
+
+.div-contenedor3{
+    width: 400px;
+    height: 342px;
+    /* border: 2px solid red; */
+    transform: translate(0px, -164px);
+}
+/* ////////stylo contenedor 4 ///////////////////////////// */
+/* ////////stylo contenedor 4 ///////////////////////////// */
+.contenedor4-interno{
+    width: 400px;
+    height: 48px;
+    border: 2px solid #EEEEEE;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:  15px;
+    border-top-right-radius: 15px;
+    transform: translateY(45px);
+    display: flex;
+    align-items: center;
+}
+.div-contenedor4-pega{
+    position:absolute;
+    border: 2px solid #EEEEEE;
+    border-bottom: none;
+    width: 170px;
+    height: 30px;
+    transform: translate(0,13px);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: #393e46;
+    display: flex;
+    align-items: center;
+}
+.div-contenedor4-pega i{
+    color: #fd7014;
+    font-size: 30px;
+    transform: translate(2px, -6px);
+}
+.div-contenedor4-pega span{
+    color: #EEEEEE;
+    font-size: 20px;
+    font-weight: 700;
+    transform: translate(10px);
+}
+
+
+
+/* ////////stylo contenedor 4 ///////////////////////////// *//* ////////stylo contenedor 4 ///////////////////////////// */
+/* ////////stylo contenedor 4 ///////////////////////////// *//* ////////stylo contenedor 4 ///////////////////////////// */
+/* ////////stylo contenedor 4 ///////////////////////////// */
+
+
+
+.div-contenedor4{
+    width: 400px;
+    height: 100px;
+    /* border: 2px solid red; */
+    transform: translate(53px, 80px);
+}
+
+

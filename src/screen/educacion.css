@@ -1,0 +1,117 @@
+
+.div-educacion{
+    width: 400px;
+    height: 250px;
+    border: 2px solid #EEEEEE;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:  15px;
+    border-top-right-radius: 15px;
+    transform: translateY(50px);
+    display: flex;
+    align-items: center;
+}
+.educacionCaja1{
+
+    width: 350px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    transform: translate(20px);
+    color: #EEEEEE;
+
+}
+.educacionCaja1 h3 {
+    margin: 0px;
+    margin-left: 20px;
+}
+.educacionCaja1 div {
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.educacionCaja2{
+    width: 350px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    transform: translate(20px);
+    color: #EEEEEE;
+}
+.educacionCaja2 h3 {
+    margin: 0px;
+    margin-left: 20px;
+}
+.educacionCaja2 div {
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.div-educacion-pega{
+    position:absolute;
+    border: 2px solid #EEEEEE;
+    border-bottom: none;
+    width: 170px;
+    height: 30px;
+    transform: translate(0,18px);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: #393e46;
+    display: flex;
+    align-items: center;
+}
+.div-educacion-pega i{
+    color: #fd7014;
+    font-size: 30px;
+    transform: translate(2px, -8px);
+}
+.div-educacion-pega span{
+    color: #EEEEEE;
+    font-size: 20px;
+    font-weight: 700;
+    transform: translate(10px);
+}
+.educacion-interno{
+    width: 370px;
+    height: 220px;
+    border: 2px solid #fd7014;
+    transform: translate(24px);
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+}
+.educacion-circulo{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #fd7014;
+    background: #171717;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(6px, -92px);
+}
+.educacion-cuadro{
+width: 10px;
+height: 10px;
+background: #fd7014;
+}
+.educacion-circulo1{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #fd7014;
+    background: #171717;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(6px, 0px);
+}
+.educacion-cuadro1{
+width: 10px;
+height: 10px;
+background: #fd7014;
+}

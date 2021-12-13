@@ -1,0 +1,80 @@
+
+
+.cajaMail-1{
+    display: flex;
+/* border: 2px solid rgb(212, 221, 212); */
+width: 320px;
+height: 30px;
+/* justify-content: center; */
+align-items: center;
+}
+.cajaMail-1 i{
+/* width: 30px; */
+font-size: 28px;
+color: #fd7014;
+}
+
+.correo1{
+    transform: translate(20px);
+}
+
+.cajaMail-2{
+display: flex;
+/* border: 2px solid rgb(212, 221, 212); */
+width: 320px;
+height: 30px;
+/* justify-content: center; */
+align-items: center;
+}
+.cajaMail-2 i{
+/* width: 30px; */
+font-size: 26px;
+color: #fd7014;
+}
+
+.correo2{
+    transform: translate(20px);
+}
+
+.cajaMail-3{
+    display: flex;
+/* border: 2px solid rgb(212, 221, 212); */
+width: 320px;
+height: 30px;
+/* justify-content: center; */
+align-items: center;
+}
+.cajaMail-3 i{
+/* width: 30px; */
+font-size: 28px;
+color: #fd7014;
+}
+
+.correo3{
+    transform: translate(26px);
+}
+
+.cajaMail-4{
+display: flex;
+/* border: 2px solid rgb(212, 221, 212); */
+width: 320px;
+height: 30px;
+/* justify-content: center; */
+align-items: center;
+}
+.cajaMail-4 i{
+/* width: 30px; */
+font-size: 28px;
+color: #fd7014;
+}
+
+.correo4{
+    transform: translate(20px);
+}
+
+.correo4 a{
+    color: #EEEEEE;
+    
+    text-decoration: none;
+
+}

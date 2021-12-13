@@ -1,0 +1,218 @@
+
+
+.div-certificados{
+    width: 400px;
+    height: 465px;
+    border: 2px solid #EEEEEE;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:  15px;
+    border-top-right-radius: 15px;
+    transform: translate(52px, 82px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-certificados-pega{
+    position:absolute;
+    border: 2px solid #EEEEEE;
+    border-bottom: none;
+    width: 170px;
+    height: 30px;
+    transform: translate(-115px,-250px);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background: #393e46;
+    display: flex;
+    align-items: center;
+}
+.div-certificados-pega i{
+    color: #fd7014;
+    font-size: 30px;
+    transform: translate(2px, -5px);
+}
+.div-certificados-pega span{
+    color: #EEEEEE;
+    font-size: 20px;
+    font-weight: 700;
+    transform: translate(10px);
+}
+.certificado-circulo{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #fd7014;
+    background: #171717;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.certificado-cuadro{
+width: 10px;
+height: 10px;
+background: #fd7014;
+}
+.traslatecirculo{
+    transform: translate(-174px, -201px);
+}
+.traslatecirculo1{
+    transform: translate(-174px, -137px);
+}
+.traslatecirculo2{
+    transform: translate(-174px, -57px);
+}
+.traslatecirculo3{
+    transform: translate(-174px, 4px);
+}
+.traslatecirculo4{
+    transform: translate(-174px, 63px);
+}
+.traslatecirculo5{
+    transform: translate(-174px, 120px);
+}
+.traslatecirculo6{
+    transform: translate(-174px, 180px);
+}
+
+
+
+.certificado-interno{
+    width: 370px;
+    height: 417px;
+    border: 2px solid #fd7014;
+    transform: translate(11px, -11px);
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+}
+.certificadoCaja1{
+    width: 350px;
+    height: 62px;
+    /* border: 2px solid blue; */
+    transform: translate(20px);
+    color: #EEEEEE;
+}
+.certificadoCaja1 div {
+    margin: 0px;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+.certificadoCaja2{
+    width: 350px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    transform: translate(20px);
+    color: #EEEEEE;
+}
+.certificadoCaja2 div {
+    margin: 0px;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+.certificadoCaja2 div a{
+    margin: 0px;
+    /* margin-left: 20px; */
+    display: block;
+    text-decoration: none; 
+    color: #fd7014;   /* margin-top: 10px; */
+}
+.certificadoCaja3{
+    width: 350px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    transform: translate(20px, -10px);
+    color: #EEEEEE;
+}
+.certificadoCaja3 div {
+    margin: 0px;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+.certificadoCaja3 div a{
+    margin: 0px;
+    /* margin-left: 20px; */
+    display: block;
+    text-decoration: none; 
+    color: #fd7014;   /* margin-top: 10px; */
+}
+#span1{
+color: #EEEEEE;
+}
+.certificadoCaja4{
+    width: 350px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    transform: translate(20px, -40px);
+    color: #EEEEEE;
+}
+.certificadoCaja4 div {
+    margin: 0px;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+.certificadoCaja4 div a{
+    margin: 0px;
+    /* margin-left: 20px; */
+    display: block;
+    text-decoration: none; 
+    color: #fd7014;   /* margin-top: 10px; */
+}
+
+.certificadoCaja5{
+    width: 350px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    transform: translate(20px, -71px);
+    color: #EEEEEE;
+}
+.certificadoCaja5 div {
+    margin: 0px;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+.certificadoCaja5 div a{
+    margin: 0px;
+    /* margin-left: 20px; */
+    display: block;
+    text-decoration: none; 
+    color: #fd7014;   /* margin-top: 10px; */
+}
+.certificadoCaja6{
+    width: 350px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    transform: translate(20px, -102px);
+    color: #EEEEEE;
+}
+.certificadoCaja6 div {
+    margin: 0px;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+.certificadoCaja6 div a{
+    margin: 0px;
+    /* margin-left: 20px; */
+    display: block;
+    text-decoration: none; 
+    color: #fd7014;   /* margin-top: 10px; */
+}
+.certificadoCaja7{
+    width: 350px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    transform: translate(20px, -132px);
+    color: #EEEEEE;
+}
+.certificadoCaja7 div {
+    margin: 0px;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+}
+.certificadoCaja7 div a{
+    margin: 0px;
+    /* margin-left: 20px; */
+    display: block;
+    text-decoration: none; 
+    color: #fd7014;   /* margin-top: 10px; */
+}
