@@ -1,5 +1,5 @@
 body{
-    background: rgb(247, 241, 241);
+    background: rgb(145, 136, 136);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     font-weight: 100;
@@ -22,7 +22,9 @@ body{
     justify-content: center;
     align-items: center;
    
- 
+    box-shadow: -10px 10px 16px 10px rgba(0, 0, 0, 9),
+                 -10px 10px 2px -7px rgba(0, 0, 0, 1);
+   
 }
 .marco{
     width: 850px;
@@ -78,9 +80,6 @@ height: 132px;
    flex-wrap: wrap;
 }
 
-/* stilo divcontenedor 3 -/////////////////// */
-
-/* ////////stylo contenedor 4 ///////////////////////////// */
 /* ////////stylo contenedor 4 ///////////////////////////// */
 .contenedor4-interno{
     width: 400px;
@@ -118,9 +117,4 @@ height: 132px;
     transform: translate(10px);
 }
 
-
-
-/* ////////stylo contenedor 4 ///////////////////////////// *//* ////////stylo contenedor 4 ///////////////////////////// */
-/* ////////stylo contenedor 4 ///////////////////////////// *//* ////////stylo contenedor 4 ///////////////////////////// */
-/* ////////stylo contenedor 4 ///////////////////////////// */
 

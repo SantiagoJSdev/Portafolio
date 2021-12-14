@@ -8,7 +8,7 @@ import { CertificadoScreen } from '../screenCv/CertificadoScreen'
 import { EducacionScreen } from '../screenCv/EducacionScreen'
 import { Lenguaje } from '../screenCv/Lenguaje'
 import { Contenedor3Skill } from '../screenCv/Contenedor3Skill'
-// import '.../'
+
 
 export const Cv = () => {
     return (
@@ -38,9 +38,6 @@ export const Cv = () => {
                         <Contenedor3Skill />
                         <Lenguaje />
 
-                        {/* <div className='div-skills'></div>
-                        <div className='div-hobbies'></div>
-                        <div className='div-lenguaje'></div> */}
                     </div>
                 </div>
 
