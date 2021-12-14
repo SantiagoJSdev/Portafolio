@@ -1,11 +1,14 @@
 
 import './main.css'
 import React from 'react'
-import { LogoTexto } from '../screen/LogoTexto'
-import { DatoSuperior } from '../screen/DatoSuperior'
-import { SocialCaja } from '../screen/SocialCaja'
-import { CertificadoScreen } from '../screen/CertificadoScreen'
-import { EducacionScreen} from '../screen/EducacionScreen'
+import { LogoTexto } from '../screenCv/LogoTexto'
+import { DatoSuperior } from '../screenCv/DatoSuperior'
+import { SocialCaja } from '../screenCv/SocialCaja'
+import { CertificadoScreen } from '../screenCv/CertificadoScreen'
+import { EducacionScreen } from '../screenCv/EducacionScreen'
+import { Lenguaje } from '../screenCv/Lenguaje'
+import { Contenedor3Skill } from '../screenCv/Contenedor3Skill'
+// import '.../'
 
 export const Cv = () => {
     return (
@@ -28,30 +31,12 @@ export const Cv = () => {
                             <SocialCaja />
                         </div>
                     </div>
-
                     <div className='cuadro3'>
-                        
-                        <EducacionScreen/>
 
-                        <CertificadoScreen/>
-                        <div className='div-contenedor3'>
-
-                            <div className='div-contenedor3-pega'>
-                            <i className="fas fa-sort-down"></i>
-                            <span>Skills</span>
-                            </div>
-
-                            <div className='contenedor3-interno'></div>
-                        </div>
-                        <div className='div-contenedor4'>
-
-                            <div className='div-contenedor4-pega'>
-                            <i className="fas fa-sort-down"></i>
-                            <span>Lenguaje</span>
-                            </div>
-
-                        <div className='contenedor4-interno'></div>
-                        </div>
+                        <EducacionScreen />
+                        <CertificadoScreen />
+                        <Contenedor3Skill />
+                        <Lenguaje />
 
                         {/* <div className='div-skills'></div>
                         <div className='div-hobbies'></div>

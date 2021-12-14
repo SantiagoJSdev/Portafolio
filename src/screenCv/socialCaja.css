@@ -4,15 +4,16 @@
     /* border: 2px solid rgb(212, 221, 212); */
     width: 320px;
     height: 30px;
-    /* justify-content: center; */
+    justify-content:right;
     align-items: center;
+    transform: translate(-32px);
     }
     
     .social-1 i{
         /* width: 30px; */
         font-size: 28px;
         color: #fd7014;
-        transform: translate(20px);
+        transform: translate(23px);
         }
         
     .cajaSocial-1 a{
@@ -29,15 +30,16 @@
         /* border: 2px solid rgb(212, 221, 212); */
         width: 320px;
         height: 30px;
-        /* justify-content: center; */
-        align-items: center;
+        justify-content:right;
+    align-items: center;
+    transform: translate(-32px);
         }
         
         .social-2 i{
             /* width: 30px; */
             font-size: 28px;
             color: #fd7014;
-            transform: translate(11px);
+            transform: translate(24px);
             }
             
         .cajaSocial-2 a{
@@ -53,15 +55,16 @@
                 /* border: 2px solid rgb(212, 221, 212); */
                 width: 320px;
                 height: 30px;
-                /* justify-content: center; */
+                justify-content:right;
                 align-items: center;
+                transform: translate(-32px);
                 }
                 
                 .social-3 i{
                     /* width: 30px; */
                     font-size: 28px;
                     color: #fd7014;
-                    transform: translate(56px);
+                    transform: translate(24px);
                     }
                     
                 .cajaSocial-3 a{

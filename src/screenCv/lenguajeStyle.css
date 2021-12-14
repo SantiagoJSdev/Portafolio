@@ -1,0 +1,37 @@
+
+
+
+.div-contenedor4{
+    width: 400px;
+    height: 100px;
+    /* border: 2px solid red; */
+    transform: translate(53px, 80px);
+}
+
+.contenedor4-circulo{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #fd7014;
+    background: #171717;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(10px, 0px);
+    /* overflow: hidden; */
+}
+.contenedor4-cuadro{
+width: 37px;
+height: 37px;
+background-size: cover;
+/* background-size: 38px; */
+background-position:center;
+border-radius: 100%;
+/* background: #fd7014;  */
+}
+.contenedor4-h2{
+    transform: translate(74px);
+    color: #EEEEEE;
+}

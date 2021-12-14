@@ -1,7 +1,7 @@
 
 .div-educacion{
     width: 400px;
-    height: 250px;
+    height: 180px;
     border: 2px solid #EEEEEE;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius:  15px;
@@ -15,7 +15,7 @@
     width: 350px;
     height: 90px;
     /* border: 2px solid blue; */
-    transform: translate(20px);
+    transform: translate(20px, -16px);
     color: #EEEEEE;
 
 }
@@ -26,14 +26,14 @@
 .educacionCaja1 div {
     margin: 0px;
     margin-left: 20px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .educacionCaja2{
     width: 350px;
     height: 90px;
     /* border: 2px solid blue; */
-    transform: translate(20px);
+    transform: translate(20px,-21px);
     color: #EEEEEE;
 }
 .educacionCaja2 h3 {
@@ -43,7 +43,7 @@
 .educacionCaja2 div {
     margin: 0px;
     margin-left: 20px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .div-educacion-pega{
@@ -72,7 +72,7 @@
 }
 .educacion-interno{
     width: 370px;
-    height: 220px;
+    height: 120px;
     border: 2px solid #fd7014;
     transform: translate(24px);
     border-bottom: none;
@@ -90,7 +90,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(6px, -92px);
+    transform: translate(6px, -57px);
 }
 .educacion-cuadro{
 width: 10px;
@@ -108,7 +108,7 @@ background: #fd7014;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(6px, 0px);
+    transform: translate(6px, 28px);
 }
 .educacion-cuadro1{
 width: 10px;

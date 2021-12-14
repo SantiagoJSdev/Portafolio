@@ -38,7 +38,7 @@ body{
     color: #EEEEEE;
     position: absolute;
     font-size: 30px;
-    transform: translate(0,-25px);
+    transform: translate(0,-20px);
 }
 .logo2{
     position: absolute;
@@ -80,51 +80,6 @@ height: 132px;
 
 /* stilo divcontenedor 3 -/////////////////// */
 
-.contenedor3-interno{
-    width: 400px;
-    height: 287px;
-    border: 2px solid #EEEEEE;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius:  15px;
-    border-top-right-radius: 15px;
-    transform: translateY(50px);
-    display: flex;
-    align-items: center;
-}
-.div-contenedor3-pega{
-    position:absolute;
-    border: 2px solid #EEEEEE;
-    border-bottom: none;
-    width: 170px;
-    height: 30px;
-    transform: translate(0,18px);
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    background: #393e46;
-    display: flex;
-    align-items: center;
-}
-.div-contenedor3-pega i{
-    color: #fd7014;
-    font-size: 30px;
-    transform: translate(2px, -6px);
-}
-.div-contenedor3-pega span{
-    color: #EEEEEE;
-    font-size: 20px;
-    font-weight: 700;
-    transform: translate(10px);
-}
-
-
-/* stylo divcontenedor 3 ///////////////////////////// */
-
-.div-contenedor3{
-    width: 400px;
-    height: 342px;
-    /* border: 2px solid red; */
-    transform: translate(0px, -164px);
-}
 /* ////////stylo contenedor 4 ///////////////////////////// */
 /* ////////stylo contenedor 4 ///////////////////////////// */
 .contenedor4-interno{
@@ -168,14 +123,4 @@ height: 132px;
 /* ////////stylo contenedor 4 ///////////////////////////// *//* ////////stylo contenedor 4 ///////////////////////////// */
 /* ////////stylo contenedor 4 ///////////////////////////// *//* ////////stylo contenedor 4 ///////////////////////////// */
 /* ////////stylo contenedor 4 ///////////////////////////// */
-
-
-
-.div-contenedor4{
-    width: 400px;
-    height: 100px;
-    /* border: 2px solid red; */
-    transform: translate(53px, 80px);
-}
-
 

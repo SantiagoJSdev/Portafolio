@@ -10,7 +10,7 @@ export const SocialCaja = () => {
                             <a 
                             href='https://www.instagram.com/santiagojoserm/'
                              target='blank'
-                             >www.instagram.com/santiagojoserm/
+                             >santiagojoserm/
                             </a>
                         </div>
                         <i className="fab fa-instagram"></i>                      
@@ -21,7 +21,7 @@ export const SocialCaja = () => {
                             <a 
                             href='https://www.linkedin.com/in/santiagoa31219/'
                              target='blank'
-                             >www.linkedin.com/in/santiagoa31219/
+                             >santiagoa31219/
                             </a>
                         </div>
                         <i className="fab fa-linkedin-in"></i>                   
@@ -32,7 +32,7 @@ export const SocialCaja = () => {
                             <a 
                             href='https://twitter.com/SantiagoJSdev'
                              target='blank'
-                             >www.twitter.com/SantiagoJSdev
+                             >SantiagoJSdev
                             </a>
                         </div>
                         <i className="fab fa-twitter"></i>                  
