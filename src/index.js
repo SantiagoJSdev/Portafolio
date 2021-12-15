@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Cv } from './cvScreen.js/Cv';
+import { MiApp } from './MiApp';
+// import { ScreenPrincipal } from './principal/ScreenPrincipal';
+// import { Cv } from './cvScreen.js/Cv';
+
 
 
 ReactDOM.render(
- <Cv/>,
+ <MiApp/>,
+
   document.getElementById('root')
 );
 

@@ -1,0 +1,35 @@
+
+
+.navMenu {
+    display: flex;
+}
+.navMenu ul{
+display: flex;
+list-style: none;
+gap: 40px;
+}
+.navMenu li{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 120px;
+height: 45px;
+}
+.navLogo i{
+font-size: 33px;
+}
+.navLogo:hover{
+animation: rotation 0.7s linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+.inicio{
+    color: #dc7df3;
+    font-weight: 100;
+}
