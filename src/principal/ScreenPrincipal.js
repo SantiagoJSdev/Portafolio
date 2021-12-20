@@ -3,6 +3,7 @@ import './principalStyle.css'
 import React from 'react'
 import { NavComponente } from './nav/NavComponente'
 import { ContentContenedor } from './contenedor2/ContentContenedor'
+import { CuadroConten1 } from './contenedor1/CuadroConten1'
 
 export const ScreenPrincipal = () => {
     return (
@@ -13,10 +14,7 @@ export const ScreenPrincipal = () => {
                 </div>
 
                 <div className='contenedor1'>
-                    <div className='cuadroImagen1'><img src='./img/imagen1.jpg' alt='text1'/></div>
-                    <div className='cuadroImagen2'><img src='./img/imagen1.jpg' alt='text1'/></div>
-                    <div className='cuadroImagen3'><img src='./img/imagen1.jpg' alt='text1'/></div>
-                    <div className='cuadroImagen4'><img src='./img/imagen1.jpg' alt='text1'/></div>
+                    <CuadroConten1/>
                     {/* <div className='cuadroImagen5'>5</div>
                     <div className='cuadroImagen6'>6</div>
                     <div className='cuadroImagen7'>7</div>
