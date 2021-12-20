@@ -7,8 +7,10 @@ body {
     font-weight:900;
     color: #EEEEEE;
     margin: 0px;
-    /* background-image: url('./img/26.jpg'); */
-
+    /* background-image: url('http://www.simplementeavanza.com/images/stories/virtuemart/product/programacion_con_javascript.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3; */
 }
 
 .containerPrincipal{
@@ -36,210 +38,78 @@ height: 90px;
 /* ///////////css navegacion/////////////////
 ///////////css navegacion///////////////// */
 .contenedor1{
-    border: 2px solid rgb(213, 75, 41);
     width: 900px;
     height: 900px;
     grid-area: container1;
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
    
 }
-.contenedor1 > img {
-    width: 100%;
-    height: 100%;
-    border: 2px solid green;
-    opacity: 0.05;
-}
-
 .contenedor2{
-    border: 2px solid rgb(51, 255, 0);
     width: 900px;
     height: 900px;
     grid-area: container2;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
-/* //css nombre //////////////// */
-.primerNombre{
-    font-size: 89PX;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 0%, 0 100%);
-    transform: translate(6PX,0px);
+/* //////////////////css contenedor 1//////////////////// */
+.cuadroImagen1{
+    width: 100px;
+    height: 680px;
+    overflow:hidden;
 }
-.contenedor2Nombre{
-width: 400px;
-height: 200px;
-}
-.contenedor2Nombre:hover .primerNombre{
-  transform: translateY(-10px);
-  background: chartreuse;
-}
-.segundoNombre{
-    font-size: 150PX;
-    transform: translateY(65px);
-}
+.cuadroImagen1 img {
+    transform: translate(-236px, 0px);
+    opacity: 0.4;
 
-.primerNombre2{
-    font-size: 89PX;
-    clip-path: polygon(0 100%, 50% 0, 100% 100%, 100% 100%, 0 100%);
-    /* transform: translate(6PX,44PX); */
-    transform: translate(6PX,0px);
 }
-.contenedor2Nombre:hover .primerNombre2{
-    transform: translateY(10px);
-    background: chartreuse;
-  }
-.text{
-    position: absolute;
-    transition: 1s ease;
+.cuadroImagen2{
+    width: 100px;
+    height: 620px;
+    overflow: hidden;
+    transform: translate(0px, 30px);
 }
-/* //css nombre //////////////// */
-
-/* css css logos media/////////////// */
-.socialLado{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    position: absolute;
-    transform: translate(390px, 130px);
-    width: 60px;
-    height: 200px;
-    gap: 3px;
-    /* background: turquoise; */
+.cuadroImagen2 img {
+    transform: translate(-336px, -30px);
+    opacity: 0.3;
 }
-.ladoGitHub{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    font-size: 25px;
-    transition: 2s ease;
+.cuadroImagen3{
+    width: 100px;
+    height: 560px;
+    overflow: hidden;
+    transform: translate(0px, 60px);
 }
-.marco .ladoGitHub:hover {
-    transition: 2s ease;
+.cuadroImagen3 img {
+    transform: translate(-438px, -60px);
+    opacity: 0.2;
 }
-
-
-.ladoLinkedin{
-    display: flex;
-    /* position: relative; */
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    font-size: 25px;
-    transition: 2s ease;
+.cuadroImagen4{
+    width: 100px;
+    height: 500px;
+    transform: translate(0px, 90px);
+    overflow: hidden;
 }
-.marco1 .ladoLinkedin:hover {
-    transition: 2s ease;
+.cuadroImagen4 img {
+    transform: translate(-540px, -90px);
+    opacity: 0.1;
 }
-
-.ladoInstagram{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    font-size: 25px;
-    transition: 2s ease;
+.cuadroImagen5{
+    width: 100px;
+    height: 700px;
 }
-.marco2 .ladoInstagram:hover {
-    transition: 2s ease;
+.cuadroImagen6{
+    width: 100px;
+    height: 600px;
 }
-.ladoTwiter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    /* background: chocolate; */
-    font-size: 25px;
+.cuadroImagen7{
+    width: 100px;
+    height: 600px;
 }
-/* css css logos media/////////////// */
-/* css css logos media/////////////// */
-
-.palabraGitHub{
-    transform: translate(-60px,-37px);
-    position: absolute;
-    color: transparent;
-    transition: all 2s ease;
-    visibility:hidden;
+.cuadroImagen8{
+    width: 100px;
+    height: 500px;
 }
-.ladoGitHub:hover {
-    transform: scale(1.5);
-    transition: all 2s ease;
-    color: #dc7df3;
-}
- .marco:hover .palabraGitHub {
-   color: #EEEEEE;
-   transform: translate(-90px,-37px);
-   transition: all 2s ease;
-   visibility: visible;
-   color: #dc7df3;
-} 
-
-.palabraLinkedin{
-    transform: translate(-60px,-37px);
-    position: absolute;
-    color: transparent;
-    transition: all 2s ease;
-    visibility: hidden;
-}
-.ladoLinkedin:hover {
-    transform: scale(1.5);
-    transition: all 2s ease;
-    color: #dc7df3;
-}
-.marco1:hover .palabraLinkedin {
-    color: #EEEEEE;
-    transform: translate(-90px,-37px);
-    transition: all 2s ease;
-    visibility: visible;
-    color: #dc7df3;
- } 
-/* //////////instagram////////// */
-.palabraInstagram{
-    transform: translate(-60px,-37px);
-    position: absolute;
-    color: transparent;
-    transition: all 2s ease;
-    visibility: hidden;
-}
-.ladoInstagram:hover {
-    transform: scale(1.5);
-    transition: all 2s ease;
-    color: #dc7df3;
-}
-.marco2:hover .palabraInstagram {
-    color: #EEEEEE;
-    transform: translate(-90px,-37px);
-    transition: all 2s ease;
-    visibility: visible;
-    color: #dc7df3;
- } 
- /* //twitr///////// */
- .palabraTwiter{
-    transform: translate(-60px,-37px);
-    position: absolute;
-    color: transparent;
-    transition: all 2s ease;
-    visibility: hidden;
-}
-.ladoTwiter:hover {
-    transform: scale(1.5);
-    transition: all 2s ease;
-    color: #dc7df3;
-}
-.marco3:hover .palabraTwiter {
-    color: #EEEEEE;
-    transform: translate(-90px,-37px);
-    transition: all 2s ease;
-    visibility: visible;
-    color: #dc7df3;
- } 
- 

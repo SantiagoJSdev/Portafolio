@@ -1,0 +1,244 @@
+
+
+.primerNombre{
+    font-size: 89PX;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 0%, 0 100%);
+    transform: translate(6PX,0px);
+}
+.contenedor2Nombre{
+width: 400px;
+height: 200px;
+}
+.contenedor2Nombre:hover .primerNombre{
+  transform: translateY(-10px);
+  /* background: chartreuse; */
+}
+.segundoNombre{
+    font-size: 150PX;
+    transform: translateY(65px);
+}
+
+.primerNombre2{
+    font-size: 89PX;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%, 100% 100%, 0 100%);
+    /* transform: translate(6PX,44PX); */
+    transform: translate(6PX,0px);
+}
+.contenedor2Nombre:hover .primerNombre2{
+    transform: translateY(10px);
+    /* background: chartreuse; */
+  }
+.text{
+    position: absolute;
+    transition: 1s ease;
+}
+/* //css nombre //////////////// */
+
+/* css css logos media/////////////// */
+.socialLado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    transform: translate(390px, 130px);
+    width: 60px;
+    height: 200px;
+    gap: 3px;
+    /* background: turquoise; */
+}
+.ladoGitHub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 25px;
+    transition: 2s ease;
+    color: #EEEEEE;
+}
+.marco .ladoGitHub:hover {
+    transition: 2s ease;
+}
+
+.ladoLinkedin{
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 25px;
+    transition: 2s ease;
+}
+.marco1 .ladoLinkedin:hover {
+    transition: 2s ease;
+}
+
+.ladoInstagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 25px;
+    transition: 2s ease;
+}
+.marco2 .ladoInstagram:hover {
+    transition: 2s ease;
+}
+.ladoTwiter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    /* background: chocolate; */
+    font-size: 25px;
+}
+/* css css logos media/////////////// */
+/* css css logos media/////////////// */
+
+.palabraGitHub a{
+    transform: translate(-60px,-37px);
+    position: absolute;
+    color: transparent;
+    transition: all 2s ease;
+    visibility:hidden;
+    color: #EEEEEE;
+}
+.palabraGitHub a {
+    color: #EEEEEE;
+    transition: all 2s ease;
+}
+.ladoGitHub:hover {
+    transform: scale(1.5);
+    transition: all 2s ease;
+    color: #dc7df3;
+}
+.marco a{
+    list-style: none;
+    text-decoration: none;
+    /* color: #EEEEEE; */
+    }
+ .marco:hover .palabraGitHub a {
+   /* color: #EEEEEE; */
+   transform: translate(-90px,-35px);
+   transition: all 2s ease;
+   visibility: visible;
+   color: #dc7df3;
+} 
+/* //////////////////////////////////// */
+.palabraLinkedin a{
+    transform: translate(-70px,-37px);
+    position: absolute;
+    color: transparent;
+    transition: all 2s ease;
+    visibility:hidden;
+    color: #EEEEEE;
+}
+
+.ladoLinkedin:hover {
+    transform: scale(1.5);
+    transition: all 2s ease;
+    color: #dc7df3;
+}
+.marco1 a{
+    list-style: none;
+    text-decoration: none;
+    }
+.marco1 i{
+    color: #EEEEEE;
+        }
+.marco1:hover .palabraLinkedin a{
+    /* color: #EEEEEE; */
+    transform: translate(-90px,-37px);
+    transition: all 2s ease;
+    visibility: visible;
+    color: #dc7df3;
+ } 
+/* //////////instagram////////// */
+.palabraInstagram a{
+    transform: translate(-80px,-39px);
+    position: absolute;
+    color: transparent;
+    transition: all 2s ease;
+    visibility:hidden;
+    color: #EEEEEE;
+}
+.palabraInstagram a {
+    color: #EEEEEE;
+    transition: all 2s ease;
+}
+.ladoInstagram:hover {
+    transform: scale(1.5);
+    transition: all 2s ease;
+    color: #dc7df3;
+}
+.marco2 a{
+    list-style: none;
+    text-decoration: none;
+    }
+.marco2 i{
+    color: #EEEEEE;
+        }
+.marco2:hover .palabraInstagram a{
+    /* color: #EEEEEE; */
+    transform: translate(-95px,-39px);
+    transition: all 2s ease;
+    visibility: visible;
+    color: #dc7df3;
+ } 
+ /* //twitr///////// */
+ .palabraTwiter a{
+    transform: translate(-60px,-37px);
+    position: absolute;
+    color: transparent;
+    transition: all 2s ease;
+    visibility:hidden;
+    color: #EEEEEE;
+}
+.marco3 a{
+    list-style: none;
+    text-decoration: none;
+    }
+.marco3 i{
+    color: #EEEEEE;
+        }
+.ladoTwiter:hover {
+    transform: scale(1.5);
+    transition: all 2s ease;
+    color: #dc7df3;
+}
+.marco3:hover .palabraTwiter a{
+    /* color: #EEEEEE; */
+    transform: translate(-90px,-37px);
+    transition: all 2s ease;
+    visibility: visible;
+    color: #dc7df3;
+ } 
+ /* ////////////////////////////////// */
+ /* ///////////////SUPERIOR NOMBRE///// */
+ .complemento{
+     display: flex;
+     align-items: center;
+     
+ }
+
+ .complemento h1{
+   margin: 0px;
+   font-size: 35px;
+   transform: translate(20px, 15px);
+}
+.complemento span {
+    font-size: 40px;
+    transform: translate(7px, 10px);
+}
+.front-end{
+    transform: translate(12px, 60px);
+    color: #dc7df3;
+}

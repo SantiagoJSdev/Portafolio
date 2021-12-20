@@ -1,6 +1,7 @@
 
 import './main.css'
 import React from 'react'
+
 import { LogoTexto } from '../screenCv/LogoTexto'
 import { DatoSuperior } from '../screenCv/DatoSuperior'
 import { SocialCaja } from '../screenCv/SocialCaja'
