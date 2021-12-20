@@ -15,15 +15,15 @@ export const Cv = () => {
     return (
         <>
             <div className='container'>
-                <div className='marco'>
+                <div className='marco10'>
                     <div className='logo'>SANTIAGO REYES</div>
                     <div className='logo2'>Front-End Developer</div>
 
-                    <div className='cuadro1'>
+                    <div className='cuadro10'>
                         <LogoTexto />
                     </div>
 
-                    <div className='cuadro2'>
+                    <div className='cuadro20'>
 
                         <div className='cajaMail'>
                             <DatoSuperior />
@@ -32,7 +32,7 @@ export const Cv = () => {
                             <SocialCaja />
                         </div>
                     </div>
-                    <div className='cuadro3'>
+                    <div className='cuadro30'>
 
                         <EducacionScreen />
                         <CertificadoScreen />

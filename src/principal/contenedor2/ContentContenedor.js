@@ -22,12 +22,12 @@ export const ContentContenedor = () => {
 
                         <div className='marco'>
                            <a href='https://github.com/SantiagoJSdev' target={'blank'}><i className="fab fa-github-alt ladoGitHub"></i></a>
-                            <div className='palabraGitHub'><a className='palabraGitHub1' href='https://github.com/SantiagoJSdev' target={'blank'}>GitHub</a></div>
+                            <div className='palabraGitHub'><a href='https://github.com/SantiagoJSdev' target={'blank'}>GitHub</a></div>
                         </div>
 
                         <div className='marco1'>
                             <a href='https://www.linkedin.com/in/santiagoa31219/' target={'blank'}><i className="fab fa-linkedin-in ladoLinkedin"></i></a>
-                            <div id='hola' className='palabraLinkedin'><a href='https://www.linkedin.com/in/santiagoa31219/' target={'blank'}>Linkedin</a></div>
+                            <div className='palabraLinkedin'><a href='https://www.linkedin.com/in/santiagoa31219/' target={'blank'}>Linkedin</a></div>
                         </div>
 
                         <div className='marco2'>

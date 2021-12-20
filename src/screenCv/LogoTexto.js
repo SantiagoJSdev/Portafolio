@@ -11,7 +11,7 @@ export const LogoTexto = () => {
                 </p>
              
                 {/* <br/> */}
-                    <span>
+                    <span className='mensaje1'>
                         {/* <br></br> */}
                         <br></br>
                         Soy un desarrollador web auto motivado y una persona un poco obsesionado por mejorar la calidad de mi código.

@@ -17,17 +17,17 @@ body{
 .container{
     display: flex;
     background: #171717;
-    width: 900px;
+    width: 1000px;
     height: 900px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-   
+   transform: translate(0px, 30px);
     box-shadow: -10px 10px 16px 10px rgba(0, 0, 0, 9),
                  -10px 10px 2px -7px rgba(0, 0, 0, 1);
    
 }
-.marco{
+.marco10{
     width: 850px;
     height: 850px;
     margin: 0;
@@ -46,21 +46,23 @@ body{
 .logo2{
     position: absolute;
     color: #EEEEEE;
-    transform: translate(232px,-14px);
+    transform: translate(262px,-14px);
     border-top: 2px solid #fd7014;
 }
 
-.cuadro1 {
+.cuadro10 {
     display: flex;
     width: 520px;
     height: 220px;
+    transform: translate(-65px , 0px);
 }
-.cuadro2 {
+.cuadro20 {
     width: 320px;
     height: 220px;
    
     transform: translate(30px);
     color: #EEEEEE;
+    transform: translate(-15px , -15px);
 }
 
 .cajaMail {
@@ -71,10 +73,11 @@ height: 132px;
 .cajaSocial {
     width: 320px;
     height: 94px;
+    transform: translate(80px , 0px);
 }
 
 
-.cuadro3 {
+.cuadro30 {
     display: flex;
     width: 850px;
     height: 650px;
