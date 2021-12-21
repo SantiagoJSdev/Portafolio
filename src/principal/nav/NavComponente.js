@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './navStyle.css'
 
 export const NavComponente = () => {
@@ -7,11 +8,11 @@ export const NavComponente = () => {
         <>
               <div className='navMenu'>
                     <ul>
-                        <li className='inicio'>Inicio</li>
-                        <li className='sobreMi'>Sobre Mi</li>
-                        <li className='Portafolio'>Portafolio</li>
-                        <li className='cv'>Currículum</li>
-                        <li className='contacto'>Contacto</li>
+                        <li className='inicio'><Link className='link color' to={'/'}>Inicio</Link></li>
+                        <li className='sobreMi'><Link className='link'  to={'/about'}>Sobre Mi</Link></li>
+                        <li className='Portafolio'><Link className='link'  to={'/portafolio'}>Portafolio</Link></li>
+                        <li className='cv'><Link className='link'  to={'/cv'}>Currículum</Link></li>
+                        <li className='contacto'><Link className='link'  to={'/contact'}>Contacto</Link></li>
                         
                     </ul>
                 </div>

@@ -6,7 +6,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius:  15px;
     border-top-right-radius: 15px;
-    transform: translateY(50px);
+    transform: translateY(87px);
     display: flex;
     align-items: center;
 }
@@ -17,6 +17,7 @@
     /* border: 2px solid blue; */
     transform: translate(20px, -16px);
     color: #EEEEEE;
+    font-size: 17px;
 
 }
 .educacionCaja1 h3 {
@@ -52,7 +53,7 @@
     border-bottom: none;
     width: 170px;
     height: 30px;
-    transform: translate(0,18px);
+    transform: translate(0,55px);
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     background: #393e46;

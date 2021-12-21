@@ -7,7 +7,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius:  15px;
     border-top-right-radius: 15px;
-    transform: translateY(-26px);
+    transform: translateY(38px);
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -19,7 +19,7 @@
     border-bottom: none;
     width: 170px;
     height: 30px;
-    transform: translate(0,-58px);
+    transform: translate(0,8px);
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     background: #393e46;

@@ -10,6 +10,7 @@ export const RouterApp = () => {
     return (
         <>
         <BrowserRouter>
+            {/* <NavComponente/> */}
             <Routes>
                 <Route path = '/' element={<ScreenPrincipal/>}/>
                 <Route path = '/about' element={<About/>}/>

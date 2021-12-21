@@ -104,7 +104,7 @@ height: 200px;
 /* css css logos media/////////////// */
 
 .palabraGitHub a{
-    transform: translate(-105px,13px);
+    transform: translate(-60px,-40px);
     position: absolute;
     color: transparent;
     transition: all 2s ease;
@@ -131,7 +131,7 @@ height: 200px;
     }
  .marco:hover .palabraGitHub a {
    /* color: #EEEEEE; */
-   transform: translate(-140px,13px);
+   transform: translate(-90px,-40px);
    transition: all 2s ease;
    visibility: visible;
    color: #dc7df3;

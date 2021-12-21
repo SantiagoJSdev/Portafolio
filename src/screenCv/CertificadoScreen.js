@@ -36,8 +36,8 @@ export const CertificadoScreen = () => {
                             <div className='certificado-interno'>
                                 <div className='certificadoCaja1'>
                                     {/* <h3>Universitaria:</h3> */}
-                                    <div>HENRY. Full Stack Web Developer - Bootcamp, Curso intensivo con 700 horas de
-                                            práctica en tecnologías orientadas a la Web. Mar. 2022
+                                    <div>HENRY. Full Stack Web Developer - Bootcamp, intensivo con 700 horas de
+                                            práctica en tecnologías Web.
                                     </div>
                                 </div>
                                 <div className='certificadoCaja2'>
