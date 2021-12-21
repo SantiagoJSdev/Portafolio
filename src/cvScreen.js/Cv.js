@@ -23,7 +23,7 @@ export const Cv = () => {
         <>
             <div className='container'>
                 <div className='marco10'>
-                    <div className='btn-cv'><i onClick={hanledCv} class="far fa-arrow-alt-circle-left"></i></div>
+                    <div className='btn-cv'><i onClick={hanledCv} className="far fa-arrow-alt-circle-left"></i></div>
                     <div className='logo'>SANTIAGO REYES</div>
                     <div className='logo2'>Front-End Developer</div>
 

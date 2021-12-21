@@ -1,4 +1,6 @@
 import React from 'react'
+import { SocialIconos } from '../contenedor2/SocialIconos'
+// import { SocialIconos } from '../contenedor2/socialIconos'
 import { NavComponente } from '../nav/NavComponente'
 import './contactStyle.css'
 
@@ -22,7 +24,10 @@ export const Contact = () => {
                             
                         </div>
                     </div>
-                    <div className='containe-contact-3'></div>
+                    <div className='containe-contact-3'>
+                        {/* <SocialIconos/> */}
+                        <SocialIconos/>
+                    </div>
                 </div>
                 
             </div>
