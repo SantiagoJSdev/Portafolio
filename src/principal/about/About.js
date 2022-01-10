@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { CuadroConten1 } from '../contenedor1/CuadroConten1'
 import { NavComponente } from '../nav/NavComponente'
 
 import './aboutStyle.css'
@@ -9,6 +10,8 @@ export const About = () => {
         <>
             <div className='contenedor-about'>
                 <div className='divNav'><NavComponente /></div>
+                <div className='divCuadroConten1'>  <CuadroConten1/></div>
+              
                 <div className='divAbout'>
                     <div className="main-container-presentacion">
                         <div className="container-presentacion">

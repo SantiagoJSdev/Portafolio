@@ -16,14 +16,15 @@ export const Contact = () => {
                         <NavComponente/>
                     </div>
                     <div className='containe-contact-2-interno1'>
-                        <div className='interno1-contact'>
+                        
+                    </div>
+                    <div className='interno1-contact'>
                             <div>
-                                <h1 className='h1-interno'>Hello..</h1>
+                                <h1 className='h1-interno'>!Hola mundo¡</h1>
                                 <div className='span-interno'><span>Contact me! <span>santiagoreyesmarin1986@gmail.com</span></span></div>
                             </div>
                             
                         </div>
-                    </div>
                     <div className='containe-contact-3'>
                         {/* <SocialIconos/> */}
                         <SocialIconos/>

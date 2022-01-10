@@ -5,6 +5,15 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.divCuadroConten1{
+    width: 688px;
+    height: 683px;
+    display: flex;
+    gap: 10px;
+    position:absolute;
+    /* left: 0; */
+    transform: translate(-653px, 69px);
+}
 .divNav {
     display: flex;
     justify-content: right;
