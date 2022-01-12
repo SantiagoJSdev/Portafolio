@@ -42,9 +42,8 @@ export const About = () => {
                 </div>
                 <div className='divAbout-mensaje'>
                     <p>¡Hola! Soy Santiago, un desarrollador web auto motivado y una persona inspidada por mejorar la calidad del codigo 
-                        en un aprendisaje constante. Trabajador comprometido en cumplir los plazos y las metas propuestas, Interesado
-                         en todo lo relacionado con la tecnologia web, Si me contratara sería un gran placer para mí.
-                      Actualmente estoy buscando oportunidades. Para ponerse en contacto envíeme un correo electrónico
+                        en un aprendisaje constante. Trabajador comprometido en cumplir los plazos y las metas propuestas, si me contratara sería un gran placer para mí.
+                    Actualmente estoy buscando oportunidades. Para ponerse en contacto envíeme un correo electrónico
                     </p>
                 </div>
             </div>

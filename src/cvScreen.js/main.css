@@ -130,6 +130,16 @@ height: 50px;
 color: #fd7014;
 transform: translate(-160px);
 cursor: pointer;
+border-radius: 50px;
+animation: pulse 1500ms infinite;
+}
+@keyframes pulse {
+    0% {
+        box-shadow: #fd7014 0 0 0 0 ;
+    }
+    75% {
+        box-shadow: #fd701400 0 0 0 20px ;
+    }
 }
 
 .dropdown-btn {

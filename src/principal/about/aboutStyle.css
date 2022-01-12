@@ -176,9 +176,10 @@
 }
 .divAbout-mensaje p {
     font-size: 30px;
+    font-weight: 100;
     text-align: justify;
    font-style: italic;
    letter-spacing: 1px;
    word-spacing: 2px;
-   transform: rotate(-3deg);
+   /* transform: rotate(-3deg); */
 }
