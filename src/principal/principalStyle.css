@@ -5,7 +5,7 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     font-weight:900;
-    color: #EEEEEE;
+    color: #41FBFC;
     margin: 0px auto;
     /* background-image: url('http://www.simplementeavanza.com/images/stories/virtuemart/product/programacion_con_javascript.jpg');
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ display: flex;
 align-items:center;    
 width: 900px;
 height: 90px;
-transform: translate(140px);
+transform: translate(5px);
 }
 
 /* ///////////css navegacion/////////////////

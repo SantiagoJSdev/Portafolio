@@ -15,8 +15,15 @@ justify-content: center;
 width: 120px;
 height: 45px;
 }
+.navLogo {
+  margin-left: 137px;
+  /* transform: translate(138px); */
+}
 .navLogo i{
 font-size: 33px;
+/* margin-left: 137px; */
+/* transform: translate(138px); */
+/* transform-origin: 0px; */
 }
 .navLogo:hover{
 animation: rotation 0.7s linear;
@@ -35,7 +42,7 @@ animation: rotation 0.7s linear;
 }
 .link{
   text-decoration: none;
-  color: #EEEEEE;
+  color: #41FBFC;
 }
 .color{
   color: #dc7df3;

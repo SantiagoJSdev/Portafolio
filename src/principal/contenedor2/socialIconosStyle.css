@@ -8,7 +8,7 @@
     border-radius: 100%;
     font-size: 25px;
     transition: 2s ease;
-    color: #EEEEEE;
+    color: #41FBFC;
 }
 .marco .ladoGitHub:hover {
     transition: 2s ease;
@@ -16,7 +16,6 @@
 
 .ladoLinkedin{
     display: flex;
-    /* position: relative; */
     justify-content: center;
     align-items: center;
     width: 50px;
@@ -24,6 +23,7 @@
     border-radius: 100%;
     font-size: 25px;
     transition: 2s ease;
+    color: #41FBFC;
 }
 .marco1 .ladoLinkedin:hover {
     transition: 2s ease;
@@ -49,7 +49,6 @@
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    /* background: chocolate; */
     font-size: 25px;
 }
 /* css css logos media/////////////// */
@@ -61,10 +60,7 @@
     color: transparent;
     transition: all 2s ease;
     visibility:hidden;
-    color: #EEEEEE;
-}
-.palabraGitHub a {
-    color: #EEEEEE;
+    color: #41FBFC;
     transition: all 2s ease;
 }
 .ladoGitHub:hover {
@@ -79,10 +75,8 @@
 .marco a{
     list-style: none;
     text-decoration: none;
-    /* color: #EEEEEE; */
     }
  .marco:hover .palabraGitHub a {
-   /* color: #EEEEEE; */
    transform: translate(-90px,-40px);
    transition: all 2s ease;
    visibility: visible;
@@ -95,7 +89,7 @@
     color: transparent;
     transition: all 2s ease;
     visibility:hidden;
-    color: #EEEEEE;
+    color: #41FBFC;
 }
 
 .ladoLinkedin:hover {
@@ -108,10 +102,9 @@
     text-decoration: none;
     }
 .marco1 i{
-    color: #EEEEEE;
+    color: #41FBFC;
         }
 .marco1:hover .palabraLinkedin a{
-    /* color: #EEEEEE; */
     transform: translate(-90px,-37px);
     transition: all 2s ease;
     visibility: visible;
@@ -124,10 +117,7 @@
     color: transparent;
     transition: all 2s ease;
     visibility:hidden;
-    color: #EEEEEE;
-}
-.palabraInstagram a {
-    color: #EEEEEE;
+    color: #41FBFC;
     transition: all 2s ease;
 }
 .ladoInstagram:hover {
@@ -140,30 +130,28 @@
     text-decoration: none;
     }
 .marco2 i{
-    color: #EEEEEE;
+    color: #41FBFC;
         }
 .marco2:hover .palabraInstagram a{
-    /* color: #EEEEEE; */
     transform: translate(-95px,-39px);
     transition: all 2s ease;
     visibility: visible;
     color: #dc7df3;
  } 
- /* //twitr///////// */
  .palabraTwiter a{
     transform: translate(-60px,-37px);
     position: absolute;
     color: transparent;
     transition: all 2s ease;
     visibility:hidden;
-    color: #EEEEEE;
+    color: #41FBFC;
 }
 .marco3 a{
     list-style: none;
     text-decoration: none;
     }
 .marco3 i{
-    color: #EEEEEE;
+    color: #41FBFC;
         }
 .ladoTwiter:hover {
     transform: scale(1.5);
@@ -171,7 +159,6 @@
     color: #dc7df3;
 }
 .marco3:hover .palabraTwiter a{
-    /* color: #EEEEEE; */
     transform: translate(-90px,-37px);
     transition: all 2s ease;
     visibility: visible;
