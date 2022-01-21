@@ -10,8 +10,8 @@ export const About = () => {
         <>
             <div className='contenedor-about'>
                 <div className='divNav'><NavComponente /></div>
-                <div className='divCuadroConten1'>  <CuadroConten1/></div>
-              
+                <div className='divCuadroConten1'>  <CuadroConten1 /></div>
+
                 <div className='divAbout'>
                     <div className="main-container-presentacion">
                         <div className="container-presentacion">
@@ -41,9 +41,20 @@ export const About = () => {
                     </div>
                 </div>
                 <div className='divAbout-mensaje'>
-                    <p>¡Hola! Soy Santiago, un desarrollador web auto motivado y una persona inspidada por mejorar la calidad del codigo 
-                        en un aprendisaje constante. Trabajador comprometido en cumplir los plazos y las metas propuestas, si me contratara sería un gran placer para mí.
-                    Actualmente estoy buscando oportunidades. Para ponerse en contacto envíeme un correo electrónico
+                    <h1>More About Me</h1>
+                    <p>¡Hola! Soy Santiago, desarrollador web auto motivado y una persona inspidada por mejorar la calidad del codigo
+                        en un aprendisaje constante.
+                    </p>
+                    <p>Desde que comencé mi carrera como desarrollador web, he acumulado conocimientos y experiencia en
+                        diseñar, desarrollar, probar y mejorar mis aplicaciones y sitios web, me enfoco en un estilo
+                        de trabajo colaborativo y en un ritmo de trabajo acelerado, todo esto también gracias a mi motivación
+                        durante mucho tiempo, tambien al bootcamp intensivo soy Henry en cual curse y fue una bonita
+                        experiencia y de gran aprendizaje, ademas e realizado varios curso de Udemy, mis habilidades están enfocadas en marcado HTML5, CSS3, JS, REACT,
+                        REDUX, todo el desarrollo web. Quisiera cubrir una posición en procesos de front-end con Javascript
+                        usando React y back-end en Node JS. Encontrará que soy un solucionador de problemas analítico y
+                        curioso con un enfoque en el aprendizaje continuo y en mantenerme actualizado en nuevas tecnologías.
+                        <p>Si me contratara sería un gran placer para mí.
+                            Actualmente estoy buscando oportunidades. Para ponerse en contacto envíeme un <span><Link to={'/contact'}>correo electrónico</Link></span></p>
                     </p>
                 </div>
             </div>
