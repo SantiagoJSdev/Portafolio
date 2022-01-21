@@ -1,0 +1,21 @@
+
+.botonPrincipal-1 {
+    width: 350px;
+    height: 100px;
+    background: transparent;
+    border: 2px solid #dc7df3;
+    border-radius: 10px / 10px;
+    transform: translate(100px, 390px);
+    color: #41FBFC;
+    font-size: 30px;
+    transition: all 1.5s;
+}
+
+.botonPrincipal-1:hover {
+transition: all 1.5s;
+border: 2px solid #41FBFC;
+color: #dc7df3;
+cursor: pointer;
+background: rgba(255, 255, 255, 200);
+
+}
