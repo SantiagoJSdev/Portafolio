@@ -65,6 +65,7 @@ transform: translate(5px);
 
 .contenedor1-btn {
     display: flex;
+    flex-direction: column;
     position: absolute;
     /* flex-direction: column; */
     gap: 10px;
