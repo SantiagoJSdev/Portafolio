@@ -73,7 +73,8 @@ height: 132px;
 .cajaSocial {
     width: 320px;
     height: 94px;
-    transform: translate(80px , 0px);
+    transform: translate(80px , 20px);
+    
 }
 
 
@@ -142,20 +143,3 @@ animation: pulse 1500ms infinite;
     }
 }
 
-.dropdown-btn {
-    width: 200px;
-     
-      color: rgb(247, 248, 248);
-      font-size: 16px;
-     
-      border-radius: 10px;
-      cursor: pointer;
-      border: solid 0px transparent;
-      background-image: linear-gradient(black, black), 
-      linear-gradient(to right, rgb(9, 243, 48), rgb(151, 0, 63));
-background-origin: border-box;
-background-clip: content-box, border-box;
-transition:  1s all;
-  
-      
-  }

@@ -1,4 +1,11 @@
 
+.container-social-1{
+    display: flex;
+    flex-direction: column;
+    transform: translate(0px, 5px);
+    gap: 10px;
+    /* border: 2px solid blue; */
+}
 .social-1{
     display: flex;
     /* border: 2px solid rgb(212, 221, 212); */

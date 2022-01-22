@@ -58,10 +58,10 @@ background: #fd7014;
     transform: translate(-174px, -201px);
 }
 .traslatecirculo1{
-    transform: translate(-174px, -137px);
+    transform: translate(-174px, -124px);
 }
 .traslatecirculo2{
-    transform: translate(-174px, -57px);
+    transform: translate(-174px, -48px);
 }
 .traslatecirculo3{
     transform: translate(-174px, 4px);
@@ -82,80 +82,71 @@ background: #fd7014;
     width: 370px;
     height: 417px;
     border: 2px solid #fd7014;
-    transform: translate(11px, -11px);
-    border-bottom: none;
+    /* transform: translate(11px, -11px); */
+    /* border-bottom: none;
     border-top: none;
-    border-right: none;
+    border-right: none; */
+    /* display: flex;
+    flex-direction: column; */
+   
+    /* align-items: baseline; */
+    /* justify-content: space-around; */
+    gap: 10px;
 }
 .certificadoCaja1{
     width: 350px;
-    height: 62px;
-    /* border: 2px solid blue; */
+    height: 90px;
+    border: 2px solid blue;
     transform: translate(20px);
     color: #EEEEEE;
 }
-.certificadoCaja1 div {
-    margin: 0px;
-    margin-left: 20px;
-    /* margin-top: 10px; */
-}
+
 .certificadoCaja2{
     width: 350px;
     height: 90px;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     transform: translate(20px);
     color: #EEEEEE;
+    
 }
-.certificadoCaja2 div {
-    margin: 0px;
-    margin-left: 20px;
-    /* margin-top: 10px; */
-}
-.certificadoCaja2 div a{
-    margin: 0px;
+
+.certificadoCaja2 a{
+    /* margin: 0px; */
     /* margin-left: 20px; */
-    display: block;
+    /* display: block; */
     text-decoration: none; 
     color: #fd7014;   /* margin-top: 10px; */
 }
 .certificadoCaja3{
     width: 350px;
     height: 90px;
-    /* border: 2px solid blue; */
-    transform: translate(20px, -10px);
+    border: 2px solid blue;
+    transform: translate(20px, 0px);
     color: #EEEEEE;
+    
 }
-.certificadoCaja3 div {
-    margin: 0px;
-    margin-left: 20px;
-    /* margin-top: 10px; */
-}
-.certificadoCaja3 div a{
-    margin: 0px;
+
+.certificadoCaja3 a{
+    /* margin: 0px; */
     /* margin-left: 20px; */
-    display: block;
+    /* display: block; */
     text-decoration: none; 
     color: #fd7014;   /* margin-top: 10px; */
 }
-#span1{
-color: #EEEEEE;
-}
+
 .certificadoCaja4{
     width: 350px;
     height: 90px;
     /* border: 2px solid blue; */
-    transform: translate(20px, -40px);
-    color: #EEEEEE;
+    /* transform: translate(20px, -40px); */
+    /* color: #EEEEEE; */
+    
 }
-.certificadoCaja4 div {
-    margin: 0px;
-    margin-left: 20px;
-    /* margin-top: 10px; */
-}
-.certificadoCaja4 div a{
-    margin: 0px;
+
+.certificadoCaja4 a{
+    /* margin: 0px; */
     /* margin-left: 20px; */
-    display: block;
+    /* display: block; */
     text-decoration: none; 
     color: #fd7014;   /* margin-top: 10px; */
 }
@@ -164,18 +155,15 @@ color: #EEEEEE;
     width: 350px;
     height: 90px;
     /* border: 2px solid blue; */
-    transform: translate(20px, -71px);
-    color: #EEEEEE;
+    /* transform: translate(20px, -71px); */
+
+   
 }
-.certificadoCaja5 div {
-    margin: 0px;
-    margin-left: 20px;
-    /* margin-top: 10px; */
-}
-.certificadoCaja5 div a{
-    margin: 0px;
+
+.certificadoCaja5 a{
+    /* margin: 0px; */
     /* margin-left: 20px; */
-    display: block;
+    /* display: block; */
     text-decoration: none; 
     color: #fd7014;   /* margin-top: 10px; */
 }
@@ -183,37 +171,29 @@ color: #EEEEEE;
     width: 350px;
     height: 90px;
     /* border: 2px solid blue; */
-    transform: translate(20px, -102px);
-    color: #EEEEEE;
+    /* transform: translate(20px, -102px); */
+  
+   
 }
-.certificadoCaja6 div {
-    margin: 0px;
-    margin-left: 20px;
-    /* margin-top: 10px; */
-}
-.certificadoCaja6 div a{
-    margin: 0px;
+
+.certificadoCaja6 a{
+    /* margin: 0px; */
     /* margin-left: 20px; */
-    display: block;
+    /* display: block; */
     text-decoration: none; 
     color: #fd7014;   /* margin-top: 10px; */
 }
 .certificadoCaja7{
     width: 350px;
     height: 90px;
-    /* border: 2px solid blue; */
-    transform: translate(20px, -132px);
-    color: #EEEEEE;
+  
+    
+    
 }
-.certificadoCaja7 div {
-    margin: 0px;
-    margin-left: 20px;
-    /* margin-top: 10px; */
-}
-.certificadoCaja7 div a{
-    margin: 0px;
+.certificadoCaja7 a{
+    /* margin: 0px; */
     /* margin-left: 20px; */
-    display: block;
+    /* display: block; */
     text-decoration: none; 
     color: #fd7014;   /* margin-top: 10px; */
 }

@@ -1,4 +1,9 @@
 
+.container-cajaMail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .cajaMail-1{
     display: flex;
@@ -74,7 +79,7 @@ color: #fd7014;
 
 .correo4 a{
     color: #EEEEEE;
-    
+    display: block;
     text-decoration: none;
 
 }

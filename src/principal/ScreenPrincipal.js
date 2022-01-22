@@ -5,6 +5,7 @@ import { NavComponente } from './nav/NavComponente'
 import { ContentContenedor } from './contenedor2/ContentContenedor'
 import { CuadroConten1 } from './contenedor1/CuadroConten1'
 import { BotonPrincipal } from './contenedor1/BotonPrincipal'
+import { FondoPortafolio } from './contenedor2/FondoPortafolio'
 
 export const ScreenPrincipal = () => {
     return (
@@ -25,6 +26,7 @@ export const ScreenPrincipal = () => {
                 <div className='contenedor2'>
 
                     <ContentContenedor />
+                    <FondoPortafolio/>
                 </div>
             </div>
 

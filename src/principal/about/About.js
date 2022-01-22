@@ -42,7 +42,7 @@ export const About = () => {
                 </div>
                 <div className='divAbout-mensaje'>
                     <h1>More About Me</h1>
-                    <p>¡Hola! Soy Santiago, desarrollador web auto motivado y una persona inspidada por mejorar la calidad del codigo
+                    <p>¡Hola! Soy Santiago, desarrollador web auto motivado y una persona inspirada por mejorar la calidad del codigo
                         en un aprendisaje constante.
                     </p>
                     <p>Desde que comencé mi carrera como desarrollador web, he acumulado conocimientos y experiencia en

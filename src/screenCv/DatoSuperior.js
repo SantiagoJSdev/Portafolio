@@ -5,7 +5,7 @@ export const DatoSuperior = () => {
     return (
         <>
             
-          
+          <div className='container-cajaMail'>
                 <div className='cajaMail-1'>
                     <i className="far fa-envelope"></i>
                     <div className='correo1'>Santiagoreyesmarin1986@gmail.com</div>
@@ -23,9 +23,9 @@ export const DatoSuperior = () => {
 
                 <div className='cajaMail-4'>
                      <i className="fab fa-github"></i>
-                    <div className='correo4'><a href='https://github.com/SantiagoJSdev' target="blank" >https://github.com/SantiagoJSdev</a></div>
+                    <div className='correo4'><a href='https://github.com/SantiagoJSdev' target="blank" >SantiagoJSdev</a></div>
                 </div>
-
+            </div>
          
                         
         </>

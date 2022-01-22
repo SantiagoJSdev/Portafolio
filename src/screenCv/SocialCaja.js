@@ -5,7 +5,9 @@ import './socialCaja.css'
 export const SocialCaja = () => {
     return (
         <>
-             <div className='social-1'>
+
+            <div className='container-social-1'>
+                 <div className='social-1'>
                         <div className='cajaSocial-1'>
                             <a 
                             href='https://www.instagram.com/santiagojoserm/'
@@ -37,6 +39,7 @@ export const SocialCaja = () => {
                         </div>
                         <i className="fab fa-twitter"></i>                  
                     </div>
+                </div>
         </>
     )
 }
