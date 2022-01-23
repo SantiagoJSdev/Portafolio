@@ -16,7 +16,7 @@ export const ContentContenedor = () => {
                         <div className='text primerNombre'>SANTIAGO</div>
                         <div className='text primerNombre2'>SANTIAGO</div>
                         <div className='segundoNombre'>REYES</div>
-                        <div className='front-end'>Front-end Developer & future Fullstack</div>
+                        <div className='front-end'>Front-End Developer & Future Fullstack</div>
                     </div>
                     {/* /////////////////nombre////////////////// */}
                     {/* ///////////////////logos social media //////////////////////// */}
