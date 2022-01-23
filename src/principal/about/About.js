@@ -44,8 +44,9 @@ export const About = () => {
                     <h1>More About Me</h1>
                     <p>¡Hola! Soy Santiago, desarrollador web auto motivado y una persona inspirada por mejorar la calidad del codigo
                         en un aprendisaje constante.
-                    </p>
-                    <p>Desde que comencé mi carrera como desarrollador web, he acumulado conocimientos y experiencia en
+                        
+                        
+                        Desde que comencé mi carrera como desarrollador web, he acumulado conocimientos y experiencia en
                         diseñar, desarrollar, probar y mejorar mis aplicaciones y sitios web, me enfoco en un estilo
                         de trabajo colaborativo y en un ritmo de trabajo acelerado, todo esto también gracias a mi motivación
                         durante mucho tiempo, tambien al bootcamp intensivo soy Henry en cual curse y fue una bonita
@@ -53,8 +54,10 @@ export const About = () => {
                         REDUX, todo el desarrollo web. Quisiera cubrir una posición en procesos de front-end con Javascript
                         usando React y back-end en Node JS. Encontrará que soy un solucionador de problemas analítico y
                         curioso con un enfoque en el aprendizaje continuo y en mantenerme actualizado en nuevas tecnologías.
-                        <p>Si me contratara sería un gran placer para mí.
-                            Actualmente estoy buscando oportunidades. Para ponerse en contacto envíeme un <span><Link to={'/contact'}>correo electrónico</Link></span></p>
+                        <br></br>
+                        <br></br>
+                        Si me contratara sería un gran placer para mí.
+                            Actualmente estoy buscando oportunidades. Para ponerse en contacto envíeme un <span><Link to={'/contact'}>correo electrónico</Link></span>
                     </p>
                 </div>
             </div>

@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: flex-end;
     position: absolute;
-    transform: translate(-600px, 120px);
+    transform: translate(-600px, 129px);
 }
 .conten-fondo {
     width: 800px;
