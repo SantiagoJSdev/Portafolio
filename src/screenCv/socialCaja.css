@@ -19,59 +19,44 @@
     .social-1 i{
         /* width: 30px; */
         font-size: 28px;
-        color: #fd7014;
+        color: #dc7df3;
         transform: translate(23px);
         }
-        
     .cajaSocial-1 a{
-        color: #EEEEEE;
-            
+        color: #EEEEEE;  
         text-decoration: none;
-        
         }
-    
-        
     .social-2{
-        display: flex;
-        margin-top: 5px;
-        /* border: 2px solid rgb(212, 221, 212); */
-        width: 320px;
-        height: 30px;
-        justify-content:right;
+    display: flex;
+    margin-top: 5px;
+    width: 320px;
+    height: 30px;
+    justify-content:right;
     align-items: center;
     transform: translate(-32px);
         }
-        
-        .social-2 i{
-            /* width: 30px; */
-            font-size: 28px;
-            color: #fd7014;
-            transform: translate(24px);
+    .social-2 i{
+    font-size: 28px;
+    color: #dc7df3;
+    transform: translate(24px);
+    }    
+    .cajaSocial-2 a{
+    color: #EEEEEE;       
+    text-decoration: none;  
             }
-            
-        .cajaSocial-2 a{
-            color: #EEEEEE;
-                
-            text-decoration: none;
-            
-            }
-    
-            .social-3{
-                display: flex;
-                margin-top: 5px;
-                /* border: 2px solid rgb(212, 221, 212); */
-                width: 320px;
-                height: 30px;
-                justify-content:right;
-                align-items: center;
-                transform: translate(-32px);
-                }
-                
-                .social-3 i{
-                    /* width: 30px; */
-                    font-size: 28px;
-                    color: #fd7014;
-                    transform: translate(24px);
+    .social-3{
+    display: flex;
+    margin-top: 5px;
+    width: 320px;
+    height: 30px;
+    justify-content:right;
+    align-items: center;
+    transform: translate(-32px);
+     }     
+    .social-3 i{
+    font-size: 28px;
+    color: #dc7df3;
+    transform: translate(24px);
                     }
                     
                 .cajaSocial-3 a{

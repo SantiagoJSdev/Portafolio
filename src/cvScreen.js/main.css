@@ -1,11 +1,4 @@
-/* body{
-    background: rgb(145, 136, 136);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    height: 950px;
-    
-} */
+
 
 @font-face {
     font-family: exclusive;
@@ -13,18 +6,26 @@
     font-family: singo;
     src: url('../font/Singo\ Regular.woff');
 }
-
+.container-body{
+    background: radial-gradient(circle 300px at top left, #a94fb9 , #393E46 );
+    background-repeat: no-repeat;
+   
+   width: 100%;
+   height: 980px;
+ 
+}
 .container{
     display: flex;
-    background: #171717;
+    background: #222831;
     width: 1000px;
     height: 900px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
    transform: translate(0px, 30px);
-    box-shadow: -10px 10px 16px 10px rgba(0, 0, 0, 9),
-                 -10px 10px 2px -7px rgba(0, 0, 0, 1);
+    box-shadow: -10px 10px 34px -3px #222831, 
+    -10px 10px 1px -11px #222831;
+    border-radius: 8px;
    
 }
 .marco10{
@@ -47,7 +48,7 @@
     position: absolute;
     color: #EEEEEE;
     transform: translate(262px,-14px);
-    border-top: 2px solid #fd7014;
+    border-top: 2px solid #dc7df3;
 }
 
 .cuadro10 {
@@ -107,16 +108,17 @@ height: 132px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     background: #393e46;
+   
     display: flex;
     align-items: center;
 }
 .div-contenedor4-pega i{
-    color: #fd7014;
+    color: #dc7df3;
     font-size: 30px;
     transform: translate(2px, -6px);
 }
 .div-contenedor4-pega span{
-    color: #EEEEEE;
+    color: #dc7df3;
     font-size: 20px;
     font-weight: 700;
     transform: translate(10px);
@@ -128,7 +130,7 @@ position: absolute;
 font-size: 50px;
 width: 50px;
 height: 50px;
-color: #fd7014;
+color: #dc7df3;
 transform: translate(-160px);
 cursor: pointer;
 border-radius: 50px;
@@ -136,7 +138,7 @@ animation: pulse 1500ms infinite;
 }
 @keyframes pulse {
     0% {
-        box-shadow: #fd7014 0 0 0 0 ;
+        box-shadow: #dc7df3 0 0 0 0 ;
     }
     75% {
         box-shadow: #fd701400 0 0 0 20px ;

@@ -27,12 +27,12 @@
     align-items: center;
 }
 .div-certificados-pega i{
-    color: #fd7014;
+    color: #dc7df3;
     font-size: 30px;
     transform: translate(2px, -5px);
 }
 .div-certificados-pega span{
-    color: #EEEEEE;
+    color: #dc7df3;
     font-size: 20px;
     font-weight: 700;
     transform: translate(10px);

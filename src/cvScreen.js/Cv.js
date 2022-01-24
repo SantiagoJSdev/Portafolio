@@ -21,6 +21,8 @@ export const Cv = () => {
     }
     return (
         <>
+
+            <div className='container-body'>
             <div className='container'>
                 <div className='marco10'>
                     <div className='btn-cv'><i onClick={hanledCv} className="far fa-arrow-alt-circle-left"></i></div>
@@ -50,6 +52,7 @@ export const Cv = () => {
                     </div>
                 </div>
 
+            </div>
             </div>
         </>
     )

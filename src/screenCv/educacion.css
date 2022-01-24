@@ -61,12 +61,12 @@
     align-items: center;
 }
 .div-educacion-pega i{
-    color: #fd7014;
+    color: #dc7df3;
     font-size: 30px;
     transform: translate(2px, -8px);
 }
 .div-educacion-pega span{
-    color: #EEEEEE;
+    color: #dc7df3;
     font-size: 20px;
     font-weight: 700;
     transform: translate(10px);
@@ -74,7 +74,7 @@
 .educacion-interno{
     width: 370px;
     height: 120px;
-    border: 2px solid #fd7014;
+    border: 2px solid #dc7df3;
     transform: translate(24px);
     border-bottom: none;
     border-top: none;
@@ -83,7 +83,7 @@
 .educacion-circulo{
     width: 35px;
     height: 35px;
-    border: 2px solid #fd7014;
+    border: 2px solid #dc7df3;
     background: #171717;
     border-radius: 50%;
     position: absolute;
@@ -96,12 +96,12 @@
 .educacion-cuadro{
 width: 10px;
 height: 10px;
-background: #fd7014;
+background: #dc7df3;
 }
 .educacion-circulo1{
     width: 35px;
     height: 35px;
-    border: 2px solid #fd7014;
+    border: 2px solid #dc7df3;
     background: #171717;
     border-radius: 50%;
     position: absolute;
@@ -114,5 +114,5 @@ background: #fd7014;
 .educacion-cuadro1{
 width: 10px;
 height: 10px;
-background: #fd7014;
+background: #dc7df3;
 }
