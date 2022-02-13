@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Cv } from '../cvScreen.js/Cv';
 import { About } from '../principal/about/About';
 import { Contact } from '../principal/contact/Contact';
@@ -17,6 +17,7 @@ export const RouterApp = () => {
                 <Route path = '/portafolio' element={<Portafolio/>}/>
                 <Route path = '/contact' element={<Contact/>}/>
                 <Route path = '/cv' element={<Cv/>}/>
+                <Route path="*" element={<Navigate to="/" />} />
             </Routes>
         </BrowserRouter>
             

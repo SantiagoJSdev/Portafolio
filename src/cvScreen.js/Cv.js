@@ -9,7 +9,7 @@ import { CertificadoScreen } from '../screenCv/CertificadoScreen'
 import { EducacionScreen } from '../screenCv/EducacionScreen'
 import { Lenguaje } from '../screenCv/Lenguaje'
 import { Contenedor3Skill } from '../screenCv/Contenedor3Skill'
-import { useNavigate } from 'react-router-dom'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
 
 
 export const Cv = () => {
@@ -17,8 +17,8 @@ export const Cv = () => {
     const navigate = useNavigate()
     const hanledCv = () => {
         navigate('/')
-        
     }
+
     return (
         <>
 
@@ -53,6 +53,7 @@ export const Cv = () => {
                 </div>
 
             </div>
+            <button className='botonCv-1 '> <a download target={'_blank'} href={'https://github.com/SantiagoJSdev/portafolio/files/8056486/Curriculum.4.pdf'}>Downloader</a> </button>
             </div>
         </>
     )

@@ -7,7 +7,7 @@
     src: url('../font/Singo\ Regular.woff');
 }
 .container-body{
-    background: radial-gradient(circle 300px at top left, #a94fb9 , #393E46 );
+    background: radial-gradient(circle 300px at top left, #a94fb9 , #0D606B );
     background-repeat: no-repeat;
    
    width: 100%;
@@ -145,3 +145,28 @@ animation: pulse 1500ms infinite;
     }
 }
 
+.botonCv-1 {
+    width: 200px;
+    height: 60px;
+    background: transparent;
+    border: 2px solid #dc7df3;
+    border-radius: 10px / 10px;
+    transform: translate(-270px, 50px);
+    color: #41FBFC;
+    font-size: 30px;
+    transition: all 1.5s;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.botonCv-1:hover {
+transition: all 1.5s;
+border: 2px solid #41FBFC;
+color: #dc7df3;
+cursor: pointer;
+background: rgba(255, 255, 255, 200);
+}
+.botonCv-1 > a {
+   text-decoration: none;
+   color: #41FBFC;}
