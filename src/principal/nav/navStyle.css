@@ -15,6 +15,7 @@ align-items: center;
 justify-content: center;
 width: 120px;
 height: 45px;
+position: relative;
 }
 
 .navLogo {
@@ -45,7 +46,63 @@ animation: rotation 0.7s linear;
 .link{
   text-decoration: none;
   color: #41FBFC;
+  position: relative;
+  z-index: 10;
 }
 .color{
   color: #dc7df3;
+}
+
+.button{
+  width: 120px;
+  height: 45px;
+  position: relative;
+  background: transparent;
+
+}
+.button.effect{
+  color: lightyellow;
+  width: 120px;
+  height: 45px;
+  border: none;
+  z-index: 1;
+}
+
+.button.effect::after,
+.button.effect::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  border: 2px solid;
+  transition: all 0.6s ease;
+  border-radius: 2px;
+  visibility: hidden;
+  z-index: 2;
+}
+.button.effect::after {
+  bottom: 0; 
+  right: 0; 
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #41FBFC;
+  border-right-color: #41FBFC;
+  z-index: 1;
+}
+.button.effect::before {
+  top: 0;
+  left: 0; 
+  border-top-color: #41FBFC;
+  border-left-color: #41FBFC;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  z-index: 1;
+}
+.button.effect:hover::after,
+.button.effect:hover:before {
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  z-index: 1;
 }

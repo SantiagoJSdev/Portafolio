@@ -40,16 +40,25 @@ export const dataPortafolio = [
     url: 'https://santiagojsdev.github.io/React-Autenticaci-n-Firestore',
     name: 'React-LoginApp-Firebase',
     img: 'https://user-images.githubusercontent.com/87577172/150695112-6fd60224-0d33-4ed1-bf81-ba35801c9031.png',
-    descripcion: 'JavaScript 82.2%, SCSS 15.5%, HTML 2.3%',
+    descripcion: 'React + Redux + Firebase + node',
     id: 6
 },
 {
     url: 'https://santiagojsdev.github.io/React-Calendario-Mern',
     name: 'React-Calendario-Mern',
     img: 'https://user-images.githubusercontent.com/87577172/150695304-256fb0ba-d70d-4252-994a-2e7d0571b502.png',
-    descripcion: 'MERN - Mongo + Express + React + Node',
+    descripcion: 'MERN - Mongo + Express + React + Redux + Node',
     id: 7
 },
+{
+    url: 'https://santiagojsdev.github.io/trenxModificado/',
+    name: 'Web-App',
+    img: 'https://user-images.githubusercontent.com/87577172/153780249-e1cf4c6f-0d9c-4731-8544-37cc79a61f37.png',
+    descripcion: 'React + Redux + Node + Firebase',
+    id: 8
+},
+
+
 
 
 ];
