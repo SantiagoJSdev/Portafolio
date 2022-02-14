@@ -25,7 +25,7 @@ position: relative;
 .navLogo i{
 font-size: 33px;
 /* margin-left: 137px; */
-/* transform: translate(138px); */
+/* transform: translate(-50px); */
 /* transform-origin: 0px; */
 }
 .navLogo:hover{
@@ -105,4 +105,17 @@ animation: rotation 0.7s linear;
   height: 100%;
   visibility: visible;
   z-index: 1;
+}
+
+@media (max-width: 1955px) {
+  .navLogo  i {
+  
+      transform: translate(-95px);
+  }
+}
+@media (max-width: 1800px) {
+  .navLogo  i {
+  
+      display: none;
+  }
 }

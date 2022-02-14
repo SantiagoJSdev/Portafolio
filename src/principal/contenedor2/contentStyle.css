@@ -69,3 +69,43 @@ height: 200px;
     transform: translate(12px, 60px);
     color: #dc7df3;
 }
+@media (max-width: 1955px) {
+    .socialLado {
+      
+        transform: translate(300px, 220px);
+    }
+}
+@media (max-width: 1800px) {
+    .socialLado {
+        /* position: absolute; */
+      /* left: 0; */
+        transform: translate(-1410px, 70px);
+    }
+}
+
+@media (max-width: 1714px) {
+    .contenedor2Nombre{
+      /* position: absolute; */
+        transform: translate(-100px);
+        
+    }
+}
+@media (max-width: 1612px) {
+    .contenedor2Nombre{
+      /* position: absolute; */
+        transform: translate(-150px);
+        
+    }
+}
+@media (max-width: 1564px) {
+    .contenedor2Nombre{
+      /* position: absolute; */
+        transform: translate(-180px);
+        
+    }
+}
+@media (max-width: 1525px) {
+    .contenedor2Nombre{
+      display: none;
+    }
+}

@@ -74,3 +74,26 @@ transform: translate(5px);
 }
 
 /* //////////////////css contenedor 1//////////////////// */
+
+
+@media (max-width: 1714px) {
+    .nav{
+      
+        transform: translate(-400px);
+        
+    }
+}
+@media (max-width: 1294px) {
+    .nav{
+      
+        transform: translate(-700px);
+        
+    }
+}
+@media (max-width: 1018px) {
+    .nav{
+      
+        transform: translate(-900px);
+        
+    }
+}

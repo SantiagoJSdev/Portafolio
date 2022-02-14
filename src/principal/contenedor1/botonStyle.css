@@ -18,3 +18,13 @@ color: #dc7df3;
 cursor: pointer;
 background: rgba(255, 255, 255, 200);
 }
+@media (max-width: 1272px) {
+    .botonPrincipal-1 {
+        transform: translate(700px, 120px);
+    }
+}
+@media (max-width: 1083px) {
+    .botonPrincipal-1 {
+        transform: translate(550px, 120px);
+    }
+}

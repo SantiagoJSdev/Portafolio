@@ -364,3 +364,10 @@ background: #FF6657;
     flex-direction: column;
     gap: 8px;
 }
+
+
+@media (max-width: 1272px) {
+    .fondoPortafolio {
+        transform: translate(-830px, 129px);
+    }
+}

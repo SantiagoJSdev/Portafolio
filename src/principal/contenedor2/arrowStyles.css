@@ -206,3 +206,10 @@
 .icons-android > i{
     transform: rotate(320deg);
 }
+
+
+@media (max-width: 1272px) {
+    .container-arrow {
+        transform: translate(-1000px, -48px);
+    }
+}
