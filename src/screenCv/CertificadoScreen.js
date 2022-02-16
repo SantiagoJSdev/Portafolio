@@ -40,11 +40,10 @@ if ( (counter > 3 ) ) {
                                      </a>
                                      <div className='slider-icons'>
                                   
-                                     <i 
-                                     onClick={decrement}
-                                     className="fas fa-chevron-left"></i>
-                                     <i
-                                     onClick={increment} className="fas fa-chevron-right"></i>
+                                    
+                                    <div  onClick={decrement} className='arrow-1'></div>
+                                 
+                                    <div  onClick={increment} className='arrow-2'></div>
                                      
                                      </div>
                              

@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.188138a5.chunk.css",
-    "main.js": "/static/js/main.3685c307.chunk.js",
-    "main.js.map": "/static/js/main.3685c307.chunk.js.map",
+    "main.css": "/static/css/main.0e34260a.chunk.css",
+    "main.js": "/static/js/main.a9f0ce89.chunk.js",
+    "main.js.map": "/static/js/main.a9f0ce89.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8205747c.js",
     "runtime-main.js.map": "/static/js/runtime-main.8205747c.js.map",
     "static/js/2.6d01c1ac.chunk.js": "/static/js/2.6d01c1ac.chunk.js",
     "static/js/2.6d01c1ac.chunk.js.map": "/static/js/2.6d01c1ac.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.188138a5.chunk.css.map": "/static/css/main.188138a5.chunk.css.map",
+    "static/css/main.0e34260a.chunk.css.map": "/static/css/main.0e34260a.chunk.css.map",
     "static/js/2.6d01c1ac.chunk.js.LICENSE.txt": "/static/js/2.6d01c1ac.chunk.js.LICENSE.txt",
     "static/media/main.css": "/static/media/Singo Regular.1110fa9e.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.8205747c.js",
     "static/js/2.6d01c1ac.chunk.js",
-    "static/css/main.188138a5.chunk.css",
-    "static/js/main.3685c307.chunk.js"
+    "static/css/main.0e34260a.chunk.css",
+    "static/js/main.a9f0ce89.chunk.js"
   ]
 }
