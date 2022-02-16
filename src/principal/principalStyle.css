@@ -39,6 +39,9 @@ align-items:center;
 width: 900px;
 height: 90px;
 transform: translate(5px);
+animation-name: desvanecer-2;
+animation-duration: 10s;
+animation-timing-function: linear;
 }
 
 /* ///////////css navegacion/////////////////
@@ -52,6 +55,10 @@ transform: translate(5px);
     display: flex;
     gap: 10px;
     margin-left: 10px;
+
+    animation-name: desvanecer-2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
    
 }
 .contenedor2{
@@ -62,7 +69,23 @@ transform: translate(5px);
     justify-content: center;
     align-items: center;
     transform: translate(110px);
+
+    animation-name: desvanecer-2;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+
     
+}
+
+
+
+@keyframes desvanecer-2 {
+from{
+opacity: 0;
+}
+to{
+opacity: 1;
+}
 }
 
 .contenedor1-btn {

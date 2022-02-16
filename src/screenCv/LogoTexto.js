@@ -14,9 +14,9 @@ export const LogoTexto = () => {
                     <span className='mensaje1'>
                         {/* <br></br> */}
                         <br></br>
-                        Soy un desarrollador web auto motivado y una persona un poco obsesionado por mejorar la calidad de mi código.
-                         Soy un apasionado y trabajador con predilección por cumplir con los plazos.
-                          Interesado en explorar y aprender. Actualmente estoy buscando oportunidades.       
+                        Soy Santiago, apacionado y motivado en el desarrollador web,
+                         me encuentro en un aprendisaje constante, estoy un poco obsesionado por 
+                        mejorar cada dia mis habilidades y experiencias, están enfocadas en marcado HTML5, CSS3, JS, REACT, REDUX.      
                     </span>
             </div>
         </>

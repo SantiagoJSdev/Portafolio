@@ -7,7 +7,7 @@ export const SocialCaja = () => {
         <>
 
             <div className='container-social-1'>
-                 <div className='social-1'>
+                 {/* <div className='social-1'>
                         <div className='cajaSocial-1'>
                             <a 
                             href='https://www.instagram.com/santiagojoserm/'
@@ -16,7 +16,7 @@ export const SocialCaja = () => {
                             </a>
                         </div>
                         <i className="fab fa-instagram"></i>                      
-                    </div>
+                    </div> */}
 
                     <div className='social-2'>
                         <div className='cajaSocial-2'>
@@ -29,7 +29,7 @@ export const SocialCaja = () => {
                         <i className="fab fa-linkedin-in"></i>                   
                     </div>
 
-                    <div className='social-3'>
+                    {/* <div className='social-3'>
                         <div className='cajaSocial-3'>
                             <a 
                             href='https://twitter.com/SantiagoJSdev'
@@ -38,7 +38,7 @@ export const SocialCaja = () => {
                             </a>
                         </div>
                         <i className="fab fa-twitter"></i>                  
-                    </div>
+                    </div> */}
                 </div>
         </>
     )

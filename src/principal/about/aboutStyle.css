@@ -183,3 +183,24 @@ color: #dc7df3;
     color: #dc7df3;
     text-decoration: none;
     }
+
+
+
+@media (max-width: 1880px) {
+    .divAbout-mensaje {
+        transform: translate(360px);
+    }
+}
+@media (max-width: 1665px) {
+    .divAbout {
+        display: none;
+    }
+    .divAbout-mensaje {
+        transform: translate(160px);
+    }
+}
+@media (max-width: 1276px) {
+    .divAbout-mensaje {
+        transform: translate(0px);
+    }
+}

@@ -9,7 +9,7 @@ import { CertificadoScreen } from '../screenCv/CertificadoScreen'
 import { EducacionScreen } from '../screenCv/EducacionScreen'
 import { Lenguaje } from '../screenCv/Lenguaje'
 import { Contenedor3Skill } from '../screenCv/Contenedor3Skill'
-import { Link, Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 export const Cv = () => {

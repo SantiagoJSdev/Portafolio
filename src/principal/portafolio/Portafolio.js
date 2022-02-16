@@ -23,7 +23,7 @@ export const Portafolio = () => {
                          que prima la constancia, el marcado y el desarrollo, evolucion de mis aplicaciones</p>
                     <div className='container-project'>
 
-                        { dataPortafolio.map(item => (
+                        { dataPortafolio.reverse().map(item => (
                                  <ItemsProyect 
                                  key = {item.id}
                                  url = {item.url}
@@ -33,7 +33,7 @@ export const Portafolio = () => {
                                  />
                         ))
                        
-}
+                        }
                     
 
                     </div>

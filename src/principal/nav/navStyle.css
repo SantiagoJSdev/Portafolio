@@ -24,12 +24,21 @@ position: relative;
 }
 .navLogo i{
 font-size: 33px;
-/* margin-left: 137px; */
-/* transform: translate(-50px); */
-/* transform-origin: 0px; */
+animation-name: desplazamiento;
+animation-duration: 10s;
+animation-timing-function: linear;
 }
 .navLogo:hover{
 animation: rotation 0.7s linear;
+}
+
+@keyframes desplazamiento {
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
 }
 @keyframes rotation {
     from {

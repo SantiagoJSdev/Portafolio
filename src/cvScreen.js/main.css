@@ -39,14 +39,14 @@
 }
 
 .logo {
-    color: #EEEEEE;
+    color: #41FBFC;
     position: absolute;
     font-size: 30px;
     transform: translate(0,-20px);
 }
 .logo2{
     position: absolute;
-    color: #EEEEEE;
+    color: #41FBFC;
     transform: translate(262px,-14px);
     border-top: 2px solid #dc7df3;
 }
@@ -151,7 +151,7 @@ animation: pulse 1500ms infinite;
     background: transparent;
     border: 2px solid #dc7df3;
     border-radius: 10px / 10px;
-    transform: translate(-270px, 50px);
+    transform: translate(-530px, 260px);
     color: #41FBFC;
     font-size: 30px;
     transition: all 1.5s;
@@ -170,3 +170,29 @@ background: rgba(255, 255, 255, 200);
 .botonCv-1 > a {
    text-decoration: none;
    color: #41FBFC;}
+
+  
+@media (max-width: 2000px) {
+      
+    .botonCv-1 {
+        transform: translate(-510px, 260px); 
+    }
+}
+@media (max-width: 1850px) {
+      
+    .botonCv-1 {
+        transform: translate(-450px, 260px); 
+    }
+}
+@media (max-width: 1450px) {
+      
+    .botonCv-1 {
+        transform: translate(-240px, 260px); 
+    }
+}
+@media (max-width: 1040px) {
+      
+    .botonCv-1 {
+        transform: translate(-40px, 260px); 
+    }
+}
