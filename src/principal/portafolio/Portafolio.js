@@ -8,7 +8,7 @@ import { ItemsProyect } from './ItemsProyect'
 
 export const Portafolio = () => {
 
-    // console.log(dataPortafolio[0].img)
+  
     return (
         <>
             
@@ -23,7 +23,7 @@ export const Portafolio = () => {
                          que prima la constancia, el marcado y el desarrollo, evolucion de mis aplicaciones</p>
                     <div className='container-project'>
 
-                        { dataPortafolio.reverse().map(item => (
+                        { dataPortafolio.map(item => (
                                  <ItemsProyect 
                                  key = {item.id}
                                  url = {item.url}

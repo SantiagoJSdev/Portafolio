@@ -68,7 +68,7 @@ height: 200px;
 .front-end{
     transform: translate(12px, 60px);
     color: #dc7df3;
-    animation: showText 10s linear;
+    animation: showText 8s linear;
 }
 @keyframes showText {
 

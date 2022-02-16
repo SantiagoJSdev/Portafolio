@@ -40,7 +40,7 @@ width: 900px;
 height: 90px;
 transform: translate(5px);
 animation-name: desvanecer-2;
-animation-duration: 10s;
+animation-duration: 5s;
 animation-timing-function: linear;
 }
 
@@ -57,7 +57,7 @@ animation-timing-function: linear;
     margin-left: 10px;
 
     animation-name: desvanecer-2;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-timing-function: linear;
    
 }
@@ -71,7 +71,7 @@ animation-timing-function: linear;
     transform: translate(110px);
 
     animation-name: desvanecer-2;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-timing-function: linear;
 
     

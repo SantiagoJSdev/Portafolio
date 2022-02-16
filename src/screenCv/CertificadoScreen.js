@@ -32,7 +32,7 @@ if ( (counter > 3 ) ) {
                             <section className='slider'>
                          
                                     <h2>{ dataCertificados[counter].name }</h2>
-                                    <a href={dataCertificados[counter].url} target='_blank' >
+                                    <a href={dataCertificados[counter].url} target='blank' >
                                      <img 
                                      src={dataCertificados[counter].img}
                                      alt='img-curso'

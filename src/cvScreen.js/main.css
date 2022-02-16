@@ -14,6 +14,7 @@
    height: 980px;
  
 }
+
 .container{
     display: flex;
     background: #222831;
@@ -26,7 +27,25 @@
     box-shadow: -10px 10px 34px -3px #222831, 
     -10px 10px 1px -11px #222831;
     border-radius: 8px;
-   
+    animation-name: desvanecer-container;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    
+}
+
+
+
+
+
+
+
+@keyframes desvanecer-container {
+from{
+opacity: 0;
+}
+to{
+opacity: 1;
+}
 }
 .marco10{
     width: 850px;
@@ -158,6 +177,10 @@ animation: pulse 1500ms infinite;
     position: absolute;
     right: 0;
     top: 0;
+
+    animation-name: desvanecer-container;
+    animation-duration: 5s;
+    animation-timing-function: linear;
 }
 
 .botonCv-1:hover {

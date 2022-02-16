@@ -53,7 +53,7 @@ export const Cv = () => {
                 </div>
 
             </div>
-            <button className='botonCv-1 '> <a download target={'_blank'} href={'https://github.com/SantiagoJSdev/portafolio/files/8056486/Curriculum.4.pdf'}>Downloader</a> </button>
+            <button className='botonCv-1 '> <a download target={'blank'} href={'https://github.com/SantiagoJSdev/portafolio/files/8056486/Curriculum.4.pdf'}>Downloader</a> </button>
             </div>
         </>
     )

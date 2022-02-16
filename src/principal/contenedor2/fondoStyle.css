@@ -36,7 +36,7 @@ body {
     justify-content: center;
     align-items: center;
     animation-name: desvanecer;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-timing-function: linear;
 }
 @keyframes desvanecer {
