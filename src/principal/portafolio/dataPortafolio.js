@@ -2,7 +2,13 @@
 
 export const dataPortafolio = [
 
-
+{
+    url: 'https://santiagojsdev.github.io/AppCSS/',
+    name: 'VideoGame-CSS',
+    img: 'https://user-images.githubusercontent.com/87577172/154692906-4c0de49a-ae7f-4d26-8e25-82dbdd15fbae.png',
+    descripcion: 'React + Redux + CSS3',
+    id: 9
+},
 {
     url: 'https://santiagojsdev.github.io/trenxModificado/',
     name: 'Web-App',
